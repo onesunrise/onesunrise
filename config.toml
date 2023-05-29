@@ -1,0 +1,29 @@
+BaseURL = "/"
+title = "My notes !"
+
+[module]
+  [[module.imports]]
+    path = "gitlab.com/kaushalmodi/hugo-theme-refined"
+  [[module.imports]]
+    path = "github.com/kaushalmodi/hugo-search-fuse-js"
+
+
+
+[Params]
+  tagline = "Mes notes à propos de ce qu'il me passe dans la tête"
+
+  # Go date formats: https://golang.org/pkg/time/#pkg-constants
+  dateform = "Mon Jan 2, 2006"
+
+  # Set favicons to true only if the following files are present in the project assets/ dir:
+  # - safari-pinned-tab.svg
+  # - manifest.json
+  # - favicon-16x16.png
+  # - favicon-32x32.png
+  # - apple-touch-icon.png
+  favicons = false
+
+  themecolorbase = "orange" # Valid values: "red", "orange", "yellow", "green", "cyan", "blue", "magenta", "brown"
+
+  
+  
